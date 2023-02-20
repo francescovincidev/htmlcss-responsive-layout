@@ -6,6 +6,9 @@
 }
 
 /* COMMON */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 .container{
     width: 90%;
     margin: 0 auto;
@@ -48,17 +51,82 @@ a{
     display: none;
 }
 
+/* jumbotron */
+.jumbotron{
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+
+}
+.jumbo-section{
+    width: 100%;
+    /* margin: 20px; */
+    /* debug */
+    height: 200px;
+    border: 2px solid black;
+}
+
+
+
+/* MAIN */
+/* strategic planning */
+.strategic-planning{
+    background-color: #9792E4;
+
+}
+
+.strategic-planning .container-main{
+    flex-wrap: wrap;
+
+}
+
+.img-title{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+}
+
+main img{
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+}
+
+
+
+
+
 /* TABLET */
 @media screen and (min-width:768px) {
+
+    /* jumbotron */
+    .jumbotron{
+        justify-content: space-between;
+        
+        
+    }
+    
+    .jumbo-section{
+        width: calc(100%/3 - 20px);
+    }
+
+    .first-jumbo-section{
+        width: calc(100%/3*2 - 10px);
+    }
     
 }
 
 /* DESKTOP */
 @media screen and (min-width:992px) {
-    .container{
+    .container, .container-main{
     width: 60%;
     }
-
+    /* header */
+    /* nav */
     .close-header-menu{
         display: none;
     }
@@ -69,6 +137,16 @@ a{
 
     .open-header-menu ul {
         gap:20px
+    }
+
+    /* main */
+    /* strategic planning */
+    .img-title{
+        width: 50%;
+    }
+    
+    .card{
+        width: 50%;
     }
   
   
