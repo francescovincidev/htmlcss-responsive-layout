@@ -1,0 +1,75 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+.header-menu{
+    background-color: #0084FD;
+    height: 40px;
+}
+
+.header-menu .container{
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-header-menu{
+    display: none;
+}
+
+/* TABLET */
+@media screen and (min-width:768px) {
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width:992px) {
+    .container{
+    width: 60%;
+    }
+
+    .close-header-menu{
+        display: none;
+    }
+
+    .open-header-menu {
+        display: block;
+    }
+
+    .open-header-menu ul {
+        gap:20px
+    }
+  
+  
+}
