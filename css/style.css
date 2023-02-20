@@ -84,17 +84,43 @@ a{
     width: 100%;
 }
 
-.card{
+.strategic-card{
+    background-color: white;
     width: 100%;
 }
 
 main img{
+
     width: 100%;
 }
 
-.card{
-    background-color: white;
+/* testimonials */
+.test-card{
+    flex-wrap: wrap;
 }
+
+.test-card img{
+    width: 60%;
+    clip-path: circle();
+}
+
+.test-card{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #9792E4;
+    color: white;
+    /* debug */
+    border: 2px solid black;
+}
+
+.test-name{
+    text-align: center;
+    margin: 20px auto;
+}
+
+
 
 
 
@@ -117,6 +143,26 @@ main img{
     .first-jumbo-section{
         width: calc(100%/3*2 - 10px);
     }
+
+
+    /* MAIN */
+    /* testimonials */
+    .test-card{
+
+    }
+    .test-card img{
+        width: 30%;
+        min-width: 30%;
+    }
+
+    .test-name{
+        text-align: left;
+    }
+
+    .test-cit{
+        width: 70%;
+    }
+    
     
 }
 
@@ -145,7 +191,7 @@ main img{
         width: 50%;
     }
     
-    .card{
+    .strategic-card{
         width: 50%;
     }
   
