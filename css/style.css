@@ -40,6 +40,10 @@ img{
     width: 100%;
 }
 
+p{
+    line-height: 1.5rem;
+}
+
 
 
 /* HEADER */
@@ -97,7 +101,7 @@ img{
     background-color: #B5DDFF;
     text-align: center;
     font-size: .7rem;
-    font-weight: bold;
+    font-weight: 600;
     color: #30363c;
     flex-wrap: wrap;
     padding: 20px;
@@ -197,8 +201,22 @@ img{
 }
 
 /* testimonials */
-.test-card{
-    flex-wrap: wrap;
+.testimonials-intro{
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+
+.testimonials-intro h2{
+    font-size: 2.5rem;
+    color: #9792E4;
+    padding: 20px 0;
+}
+
+.testimonials-intro {
+    font-size: .7rem;
+
 }
 
 .test-card img{
@@ -207,24 +225,41 @@ img{
 }
 
 .test-card{
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 20px auto;
     background-color: #9792E4;
     color: white;
-    /* debug */
-    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.test-cit p{
+    font-style: italic;
+}
+
+.testimonials-cards p i{
+    font-size: 1.2rem;
 }
 
 .test-name{
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto 0;
 }
 
 /* benefits */
 .benefits{
     background-color: #9792E4;
+}
+
+.ben-title{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .benefits-cards{
@@ -235,11 +270,32 @@ img{
 
 .ben-card{
     width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
 
-    border: 2px solid black;
-    height: 150px;
+.ben-card h2{
+    color: #9792E4;
+    font-size: 2.5rem;
+}
 
+.ben-card h3{
+    color: #9792E4;
+    /* font-size: 2.5rem; */
+}
 
+.ben-card p{
+    font-size: 0.7rem;
+    padding: .5rem 0;
+}
+
+.ben-btn{
+    color: white;
+    background-color: #9792E4;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 20px;
 }
 
 /* About us */
@@ -250,11 +306,59 @@ img{
 
 .about-us-description{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .paragrafs{
     width: 100%;
 }
+
+.about-us-cit{
+    position: relative;
+}
+
+.about-us-quote{
+    color: #9792E4;
+    font-size: 6rem;
+    position: absolute;
+    top: 0;
+    right: 40%;
+}
+
+.about-us h2{
+    font-size: 2.5rem;
+    color: #9792E4;
+
+}
+
+.about-us p{
+    padding: 1rem 0;
+
+
+}
+
+.about-us-description .paragrafs p{
+    font-size: .8rem;
+}
+
+.about-us-cit img{
+    width: 60%;
+}
+
+.about-us-cit p{
+    color: #9792E4;
+    font-weight: bold;
+}
+
+.about-us-btn{
+    color: white;
+    background-color: #9792E4;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
 
 
 
@@ -295,6 +399,8 @@ img{
     /* MAIN */
     /* testimonials */
     .test-card{
+    text-align: left;
+
 
     }
     .test-card img{
@@ -318,11 +424,21 @@ img{
 
     /* about us */
     .paragrafs{
-        width: calc(100%/3 * 2);
+        width: 60%;
     }
 
     .about-us-cit{
-        width: calc(100%/3);
+        width: 30%;
+
+    }
+
+    .about-us-cit img{
+        width: 100%;
+    }
+
+    .about-us-quote{
+         font-size: 3rem;
+         right: 10%;
 
     }
     
