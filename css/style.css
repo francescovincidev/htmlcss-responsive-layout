@@ -9,12 +9,18 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
 .container{
     width: 90%;
     margin: 0 auto;
 }
 
 .container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-footer{
     width: 80%;
     margin: 0 auto;
 }
@@ -36,14 +42,9 @@ a{
     text-decoration: none;
 }
 
-img{
-    width: 100%;
-}
-
 p{
     line-height: 1.5rem;
 }
-
 
 
 /* HEADER */
@@ -68,7 +69,6 @@ p{
 .logo-header img{
     width: 50%;
     vertical-align: middle;
-
 }
 
 .open-header-menu{
@@ -79,7 +79,6 @@ p{
     align-items: center;
     gap: 15px;
 }
-
 
 .open-header-menu li:last-child a{
     color: black;
@@ -94,8 +93,8 @@ p{
     flex-wrap: wrap;
     gap: 20px;
     margin: 60px auto 40px;
-
 }
+
 .jumbo-section{
     width: 100%;
     background-color: #B5DDFF;
@@ -119,8 +118,6 @@ p{
     color: #2495FD;
     font-size: 3rem;
     padding-bottom: 10px;
-
-
 }
 
 .first-jumbo-section{
@@ -134,7 +131,6 @@ p{
     border-radius: 20px;
     padding: 5px 60px;
     margin-top: 20px;
-
 }
 
 
@@ -143,12 +139,10 @@ p{
 /* strategic planning */
 .strategic-planning{
     background-color: #9792E4;
-
 }
 
 .strategic-planning .container-main{
     flex-wrap: wrap;
-
 }
 
 .img-title{
@@ -170,14 +164,12 @@ p{
 .strategic-planning p{
     padding: 20px 0;
     font-size: 0.7rem;
-
 }
 
 .strategic-card p{
     padding: 20px 0;
     font-size: 0.7rem;
     font-style: italic;
-
 }
 
 .strategic-card{
@@ -188,7 +180,7 @@ p{
     padding: 20px;
 }
 
-.strategic-card img{
+.strategic-planning img{
     padding: 10px;
     width: 100%;
 }
@@ -204,9 +196,7 @@ p{
 .testimonials-intro{
     text-align: center;
     padding: 20px 0;
-
 }
-
 
 .testimonials-intro h2{
     font-size: 2.5rem;
@@ -216,7 +206,6 @@ p{
 
 .testimonials-intro {
     font-size: .7rem;
-
 }
 
 .test-card img{
@@ -234,7 +223,6 @@ p{
     color: white;
     border-radius: 30px;
     text-align: center;
-
 }
 
 .test-cit p{
@@ -282,7 +270,6 @@ p{
 
 .ben-card h3{
     color: #9792E4;
-    /* font-size: 2.5rem; */
 }
 
 .ben-card p{
@@ -301,7 +288,6 @@ p{
 /* About us */
 .about-us-description img{
     clip-path: circle();
-
 }
 
 .about-us-description{
@@ -328,13 +314,10 @@ p{
 .about-us h2{
     font-size: 2.5rem;
     color: #9792E4;
-
 }
 
 .about-us p{
     padding: 1rem 0;
-
-
 }
 
 .about-us-description .paragrafs p{
@@ -356,16 +339,71 @@ p{
     padding: 5px 20px;
     display: inline-block;
     border-radius: 20px;
+    text-align: center;
 }
 
+/* get started */
+.get-started{
+    background-color: #9792E4;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
 
+.gt-subtitle{
+    color: rgba(255, 255, 255, 0.477);
+    padding: 5px 0;
+}
 
+.get-started h2{
+    color: #FDC15F;
+    font-size: 2.5rem;
+    padding: 5px 0;
+}
 
+.get-started h3{
+    padding: 5px 0;
+    font-size: 1.5rem;
+}
 
+.get-started p{
+    padding: 5px 0;
+    font-size: .8rem;
+}
 
+.gs-btn a{
+    margin: 10px auto;
+    padding: 10px 30px;
+    background-color: white;
+    color: #9792E4;
+    display: inline-block;
+    border-radius: 30px;
+}
 
+.privacy{
+    font-size: .6rem;
+}
 
+.privacy a{
+    text-decoration: underline;
+}
 
+/* FOOTER */
+.footer{
+    background-color: #333333;
+    color: white;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.footer p:first-child{
+    padding-bottom: 20px;
+}
+
+.footer p a{
+    color: #9792E4;
+    text-decoration: underline;
+}
 
 
 /* TABLET */
@@ -373,9 +411,7 @@ p{
 
     /* jumbotron */
     .jumbotron{
-        justify-content: space-between;
-        
-        
+        justify-content: space-between;  
     }
     
     .jumbo-section{
@@ -400,9 +436,8 @@ p{
     /* testimonials */
     .test-card{
     text-align: left;
-
-
     }
+
     .test-card img{
         width: 30%;
         min-width: 30%;
@@ -418,8 +453,7 @@ p{
 
     /* benefits */
     .ben-card{
-    width: calc(100%/2 - 20px);
-
+       width: calc(100%/2 - 20px);
     }
 
     /* about us */
@@ -429,7 +463,6 @@ p{
 
     .about-us-cit{
         width: 30%;
-
     }
 
     .about-us-cit img{
@@ -439,7 +472,6 @@ p{
     .about-us-quote{
          font-size: 3rem;
          right: 10%;
-
     }
     
     
@@ -470,6 +502,7 @@ p{
     .first-jumbo-section .jumbo-description{
         width: 50%;
     }
+
     .first-jumbo-section img{
         width: 50%;
         align-self: flex-end;
@@ -481,6 +514,7 @@ p{
     .strategic-planning .flex{
         justify-content: space-around;
     }
+
     .img-title{
         width: 40%;
     }
@@ -497,7 +531,12 @@ p{
     /* benefits */
     .ben-card{
         width: calc(100%/3 - 20px);
-        
+    }
+
+    /* get started */
+    .container-footer{
+        width: 50%;
+        margin: 0 auto;
     }
             
   
